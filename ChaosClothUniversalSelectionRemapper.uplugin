@@ -1,0 +1,25 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Chaos Cloth Universal Selection Remapper",
+  "Description": "Adds a universal Dataflow node that remaps all Chaos Cloth selections from a source cloth collection onto a fitted/reordered target collection using UV/pattern-space correspondence.",
+  "Category": "Physics",
+  "CreatedBy": "OpenAI",
+  "CanContainContent": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "ChaosClothUniversalSelectionRemapper",
+      "Type": "Editor",
+      "LoadingPhase": "Default",
+      "PlatformAllowList": ["Win64", "Mac", "Linux"]
+    }
+  ],
+  "Plugins": [
+    { "Name": "ChaosCloth", "Enabled": true },
+    { "Name": "ChaosClothAsset", "Enabled": true },
+    { "Name": "ChaosClothAssetDataflowNodes", "Enabled": true },
+    { "Name": "Dataflow", "Enabled": true }
+  ]
+}
