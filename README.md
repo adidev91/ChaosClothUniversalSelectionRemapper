@@ -1,3 +1,6 @@
+ChaosClothUniversalSelectionRemapper
+
+
 This plugin was created to remap the original asset's render/sim selection onto MHC fitted garments
 First its important to make sure you run the MHC fitting on both the render mesh and the proxy mesh
 to get the required skeletal meshes for this plugin to use.
